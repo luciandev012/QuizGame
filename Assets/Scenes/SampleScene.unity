@@ -257,6 +257,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 86242428}
   m_CullTransparentMesh: 1
+--- !u!1 &122514366 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6148348351310132233, guid: 679e714f76701774fbef696cf44a1233, type: 3}
+  m_PrefabInstance: {fileID: 6115436697972044701}
+  m_PrefabAsset: {fileID: 0}
 --- !u!224 &122514367 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 6177059573531013638, guid: 679e714f76701774fbef696cf44a1233, type: 3}
@@ -363,6 +368,11 @@ PrefabInstance:
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 6177059573531013638, guid: 679e714f76701774fbef696cf44a1233, type: 3}
   m_PrefabInstance: {fileID: 183096758}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &232599849 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6148348351310132233, guid: 679e714f76701774fbef696cf44a1233, type: 3}
+  m_PrefabInstance: {fileID: 1180967245}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &330143960
 GameObject:
@@ -525,6 +535,11 @@ Transform:
   - {fileID: 2078447340}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &903849308 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6148348351310132233, guid: 679e714f76701774fbef696cf44a1233, type: 3}
+  m_PrefabInstance: {fileID: 1089072751}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &929114495
 GameObject:
   m_ObjectHideFlags: 0
@@ -816,6 +831,7 @@ GameObject:
   - component: {fileID: 1292028551}
   - component: {fileID: 1292028550}
   - component: {fileID: 1292028549}
+  - component: {fileID: 1292028553}
   m_Layer: 5
   m_Name: QuizCanvas
   m_TagString: Untagged
@@ -907,6 +923,25 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1292028553
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1292028548}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc5c5353994ed1f40bd74facee139b68, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  questionText: {fileID: 1488597475}
+  question: {fileID: 11400000, guid: 0aa97439424297840b82bd68f07c3ab4, type: 2}
+  answerButtons:
+  - {fileID: 122514366}
+  - {fileID: 232599849}
+  - {fileID: 1880354648}
+  - {fileID: 903849308}
 --- !u!1 &1353483186
 GameObject:
   m_ObjectHideFlags: 0
@@ -1219,6 +1254,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1488597473}
   m_CullTransparentMesh: 1
+--- !u!1 &1880354648 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6148348351310132233, guid: 679e714f76701774fbef696cf44a1233, type: 3}
+  m_PrefabInstance: {fileID: 183096758}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1954878009
 GameObject:
   m_ObjectHideFlags: 0
